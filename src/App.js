@@ -1,13 +1,17 @@
- import logo from './logo.svg';
- import './App.css';
-import Chatbot from './Chatbot';
- function App() {
-   return (
-    <div className="App">
-       <Chatbot />
-     </div>
-  );
- }
+import React, { useState } from 'react';
 
- export default App;
+
+import Chatbot from './Chatbot';
+import ImageGenerator  from   './ImageGenerator';
+function App() {
+
+  return (
+    <ImageGenerator/>
+
+       
+  )
+};
+
+export default App;
+
 
